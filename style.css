@@ -1,0 +1,368 @@
+*{
+    margin:0;
+    padding: 0;
+    
+    
+}
+
+.row{
+    
+   max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+
+
+body{
+    
+    font-family: tahoma;
+    font-size: 20px;
+}
+
+.india{
+    
+    position: absolute;
+    width: 1140px;
+    top:50%;
+    left:12%;
+    transition: translate(-50%,-50%);
+    
+}
+
+header{
+    
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/img01.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+h1{
+    
+    color: floralwhite;
+}
+
+.main-nav{
+    
+    list-style:none;
+    float: right;
+    margin-top: -50px;
+}
+
+
+.main-nav li {
+    
+    display: inline-block;
+    margin-left:55px;
+}
+
+.main-nav li a {
+    
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 90%;
+    font-weight: bold;
+    
+   
+}
+
+.main-nav li a:hover{
+    
+    color: greenyellow;
+    border-bottom:2px solid blue;
+    transition:all 0.5s ease-in;
+    padding:10px 0;
+    
+    
+    
+}
+
+
+
+.logo img {
+    
+    height: 100px; 
+    margin-top: 30px;
+    float: left;
+    margin-left: -160px;
+    
+}
+
+
+.btn {
+    
+    border:1px solid white;
+    padding: 10px 30px;
+    color: coral;
+    text-decoration: none;
+    border-radius: 12px;
+    margin-right: 15px;
+ 
+}
+
+.button-cool{
+    margin-top: 40px;
+}
+
+.btn-one:hover{
+    background-color: darkorange;
+    color: white;
+    transition:all 0.5s ease-in;
+    
+}
+
+.btn-two:hover {
+    background-color: darkorange;
+    color: white;
+    transition:all 0.5s ease-in;
+
+    
+}
+
+.copy{
+    width: 70%;
+    margin-left: 15%;
+    font-family:'Indie Flower',cursive;
+    font-size: 25px;
+    margin-bottom:25px; 
+    
+}
+
+h3:after{
+    
+   width:100px; 
+    height: 2px;
+    background-color: brown;
+    display: block;
+    content: "";
+    margin: 0 auto;
+    margin-top: 30px;
+    
+}
+
+
+.features h3{
+    
+    
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+
+
+.col-md-3 p {
+    
+    font-family:'Raleway', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    
+}
+
+
+.text {
+    
+    text-align: justify;
+    color:black;
+   
+    
+    
+    
+}
+
+.features i {
+    
+    font-size: 30px;
+    color: black;
+    margin-left: 35%;
+    
+    
+    
+}
+
+h4{
+    color: blue;
+}
+
+.text-center{
+    color: orangered;
+}
+
+.features h4{
+    
+    margin-left:40px;
+}
+
+.graphics-showcase{
+    list-style: none;
+    width: 100%;
+    
+}
+
+.graphics-showcase li{
+    
+    display: block;
+    width: 25%;
+    float: left;
+    
+}
+.graphic-photo{
+    
+    width: 100%;
+    margin: 0;
+    overflow:hidden;
+    
+}
+.graphic-photo img{
+    
+    width: 100%;
+    height: 30%;
+    transform: scale(1.15);
+    transition:all 0.5s; 
+    
+}
+    
+.graphic-photo img:hover{
+    
+    transform: scale(1.05);
+}
+
+
+.graphics {
+    
+    margin-top:80px;
+}
+
+.mobpic img {
+    width: 40%;
+    margin-left: 50%;
+    margin-top: 50px;
+}
+
+.work-step {
+        margin-top: 50px;
+    
+}
+
+.work-step div {
+    
+     border: 1px solid orange;
+    display: inline-block;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.work-step p{
+    
+    font-family: 'Open Sans', sans-serif;    
+}
+
+
+.work-step img{
+    
+    height: 45px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.clearfix{
+    zoom:1;
+}6
+
+.clearfix:after{
+    
+    visibility: hidden;
+    content: ".";
+    height: 0;
+    display: block;
+    clear: both;
+}
+
+.mobile
+{
+    margin-top:40px;
+        
+    
+}
+
+.mobpic img {
+    
+    width: 40%;
+    height: 50%;
+    transform: scale(1.15);
+    transition:all 0.5s; 
+
+}
+
+.cities{
+    margin-top: 100px;
+}
+
+.cities img{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.cities img:hover{
+    transform: scale(1.15);
+    transition:all 0.5s; 
+        
+}
+
+.cities i {
+    color: crimson;
+}
+
+.testimonial {
+    margin-top: 80px;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/backdrop.jpg);
+    padding-top:80px;
+    padding-bottom: 60px;
+    color: white;
+    background-attachment: fixed;
+    
+}
+
+
+
+.testimonial p{
+    
+    color: white;
+    line-height: 25px;
+    text-align: justify;
+    margin-top: 40px;
+    
+}
+
+
+.testimonial cite img {
+    
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px; 
+    
+}
+
+.btn-block {
+    background-color: #e67e22;
+    color: white;
+    border-radius: 4px;
+    margin-top: 20px;
+
+}
+
+.gap {
+    
+    margin-top: 40px;
+}
+
+.form h3{
+    
+    margin-top:50px; 
+}
